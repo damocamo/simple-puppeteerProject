@@ -1,0 +1,22 @@
+{
+  "name": "simple-puppeteerproject",
+  "version": "1.0.0",
+  "description": "Simple project to run a basic puppeteer example",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damocamo/simple-puppeteerProject.git"
+  },
+  "author": "DamoCamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damocamo/simple-puppeteerProject/issues"
+  },
+  "homepage": "https://github.com/damocamo/simple-puppeteerProject#readme",
+  "dependencies": {
+    "puppeteer": "^1.13.0"
+  }
+}
