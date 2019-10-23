@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-results name="jest results" date="2019-09-19" time="00:47:08" invalid="0" ignored="0" inconclusive="0" not-run="0" errors="0" total="1" failures="0" skipped="0">
+  <environment nunit-version="na" clr-version="na" os-version="18.7.0" platform="darwin" cwd="/Users/damiencucuzza/projects/pupeteerTestFrameWork" user="na" user-domain="na" machine-name="Damiens-MBP.lan"/>
+  <culture-info current-culture="na" current-uiculture="na"/>
+  <test-suite name="/Users/damiencucuzza/projects/pupeteerTestFrameWork/src/features/API.feature" time="0.362" executed="True" success="True" result="Success" type="TestFixture">
+    <results>
+      <test-case name="Feature: Do a simple API test Simple API Tet" executed="True" result="Success" time="0">
+      </test-case>
+    </results>
+  </test-suite>
+</test-results>

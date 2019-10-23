@@ -1,0 +1,26 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="This is a basic framework for testing API /" tests="10" errors="0" failures="0" skipped="0" timestamp="2019-10-23T09:37:01" time="0.264">
+    <testcase classname="This is a basic framework for testing API /" name="Validate 200 response to get all infomration from api" time="0.03">
+      <system-out><![CDATA[listening on port 3001
+]]></system-out>
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Validate 401 using invalid API key" time="0.009">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Respond with json containing a state" time="0.002">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Test 404 error when state not found" time="0.003">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Check response with 201 new suburb created" time="0.021">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Validate response with 400 invalid data provided" time="0.003">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Check response with 200 new suburb updated" time="0.002">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Check response with 204 new suburb NOT updated" time="0.001">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Check response with 200 suburb deleted" time="0.003">
+    </testcase>
+    <testcase classname="This is a basic framework for testing API /" name="Check response with 204 new suburb NOT deleted" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>

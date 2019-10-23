@@ -1,0 +1,73 @@
+{
+  "default": {
+    "pageTimeout": 30000,
+    "waitTime": 2000,
+    "headlessMode": true,
+    "devtools": false,
+    "user": "ABC123",
+    "width": 1024,
+    "height": 768,
+    "stepScreenshot": true,
+    "clearReports": false,
+    "launchReport": false,
+    "consoleLogs": true,
+    "chromiumPath": ""
+  },
+  "sit": {
+    "pageTimeout": 30000,
+    "waitTime": 2000,
+    "headlessMode": true,
+    "devtools": false,
+    "user": "ABC123",
+    "width": 1280,
+    "height": 720,
+    "stepScreenshot": false,
+    "clearReports": false,
+    "launchReport": false,
+    "consoleLogs": true
+  },
+  "dev": {
+    "pageTimeout": 100090000,
+    "waitTime": 2000,
+    "headlessMode": false,
+    "devtools": false,
+    "user": "ABC123",
+    "width": 1280,
+    "height": 720,
+    "stepScreenshot": false,
+    "clearReports": true,
+    "launchReport": false,
+    "consoleLogs": true
+  },
+  "docker": {
+    "pageTimeout": 30000,
+    "waitTime": 2000,
+    "headlessMode": true,
+    "devtools": false,
+    "user": "ABC123",
+    "width": 1280,
+    "height": 720,
+    "stepScreenshot": false,
+    "clearReports": true,
+    "launchReport": false,
+    "consoleLogs": true,
+    "chromiumPath": ""
+  },
+  "re-run": {
+    "pageTimeout": 25000,
+    "waitTime": 2000,
+    "headlessMode": false,
+    "devtools": false,
+    "user": "ABC123",
+    "width": 1280,
+    "height": 720,
+    "stepScreenshot": true,
+    "clearReports": false,
+    "launchReport": false,
+    "consoleLogs": true
+  },
+  "api": {
+    "waitTime": 2000,
+    "consoleLogs": true
+  }
+}

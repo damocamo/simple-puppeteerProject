@@ -1,0 +1,1914 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test the cart feature of the application",
+    "line": 1,
+    "id": "to-test-the-cart-feature-of-the-application",
+    "tags": [],
+    "uri": "src/features/Add_RemoveCart.feature",
+    "elements": [
+      {
+        "id": "to-test-the-cart-feature-of-the-application;search-with-website-3-different-types-of-criteria",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Search with website 3 different types of criteria",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:32:53",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5643000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:32:53",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in \"global searchInput\" input with \"Dog\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:32:58",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press \"Enter\" keys",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:32:58",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I set page to \"results_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:32:58",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the \"Fast Dispatch\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144161000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:33:00",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the \"Fitbark\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 804000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:25",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the \"Home & Garden\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:25",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I validate \"searchResultsTitle\" contains \"Search for Dog in Fitbark - Home & Garden (with Fast Dispatch)\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:26",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I validate search results relate to \"Fitbark\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:26",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 2 minutes 33 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "to-test-the-cart-feature-of-the-application;search-with-website-3-different-types-of-criteria",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Search with website 3 different types of criteria",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:35:26",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6848000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:26",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in \"global searchInput\" input with \"Baby\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:33",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press \"Enter\" keys",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:33",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I set page to \"results_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:33",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on the \"Fast Dispatch\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:35",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on the \"Bella Vita\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:35",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on the \"Health & Beauty\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:36",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I validate \"searchResultsTitle\" contains \"Search for Baby in Bella Vita - Health & Beauty (with Fast Dispatch)\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:36",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I validate search results relate to \"Bella Vita\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:36",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 0 minutes 10 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "to-test-the-cart-feature-of-the-application;adding-product-to-cart",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Adding product to cart",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:35:37",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6176000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:37",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I fill in \"global searchInput\" input with \"Workout\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:43",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I press \"Enter\" keys",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:43",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I set page to \"results_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:43",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I validate \"searchResultsTitle\" contains \"Search for Workout\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:45",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click on the \"Fast Dispatch\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:45",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I click on the \"Audio\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:45",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I click on the \"Beats\" option",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 246000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:46",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I click \"0\" item on the results",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1835000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:46",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I set page to \"products_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:48",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I save the \"product\" name clicked",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:50",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click on \"global buttonText\" with text \"ADD TO CART\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:50",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I validate cart has added \"1\" item",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:50",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I validate product name has been added",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:169"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:50",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 0 minutes 13 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "to-test-the-cart-feature-of-the-application;removing-product-from-cart",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Removing product from cart",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 41
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 419000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:35:51",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5745000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:51",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "I fill in \"global searchInput\" input with \"Baby\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:56",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I press \"Enter\" keys",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:56",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "I set page to \"results_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:56",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I validate \"searchResultsTitle\" contains \"Search for Baby\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:58",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "I click \"3\" item on the results",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2934000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:35:58",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I click on \"global buttonText\" with text \"ADD TO CART\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:01",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I validate cart has added \"1\" item",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:02",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I click on cart button",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1716000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:02",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "I click \"Remove\" \"button\" on item \"0\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:04",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "I validate page contains text \"You removed \"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2041000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:04",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I validate page contains text \"There are no items in your cart at the moment.\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2018000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:06",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 0 minutes 17 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "To test the checkout feature of the application",
+    "line": 1,
+    "id": "to-test-the-checkout-feature-of-the-application",
+    "tags": [],
+    "uri": "src/features/Checkout.feature",
+    "elements": [
+      {
+        "id": "to-test-the-checkout-feature-of-the-application;checkout-item---up-untill-credit-card-information",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Checkout item - Up untill credit card information",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:36:08",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6233000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:08",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill in \"global searchInput\" input with \"Baby\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:14",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I press \"Enter\" keys",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:14",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I set page to \"results_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:14",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I validate \"searchResultsTitle\" contains \"Search for Baby\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:16",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click \"1\" item on the results",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1977000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:17",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I click on \"global buttonText\" with text \"ADD TO CART\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:18",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I validate cart has added \"1\" item",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:19",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on cart button",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1534000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:19",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click on \"global buttonText\" with text \"CHECKOUT\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:20",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I set page to \"checkout_pages\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:21",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I fill in \"emailInput\" input with \"Random\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:23",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I fill in \"fullnameInput\" input with \"Random\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:23",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I fill in \"phoneInput\" input with \"0411234567\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:23",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on \"global buttonText\" with text \"CONTINUE\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:23",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I fill in \"companynameInput\" input with \"HappyHi\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:23",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I input the address \"30 melbourne\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1680000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:23",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on \"global buttonText\" with text \"CONTINUE\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:25",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 0 minutes 17 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "To register a new user and login with those details",
+    "line": 1,
+    "id": "to-register-a-new-user-and-login-with-those-details",
+    "tags": [],
+    "uri": "src/features/Register_Login.feature",
+    "elements": [
+      {
+        "id": "to-register-a-new-user-and-login-with-those-details;register-a-new-user",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Register a new user",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:36:26",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5710000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:26",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click on \"userMenu\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:31",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I set page to \"popup\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2001000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:32",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on \"signUpLink\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8593000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:34",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I fill in \"emailInput\" input with \"Random\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:42",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fill in \"passwordInput\" input with \"Password123!!D\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:42",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on \"global buttonLabel\" with text \"CREATE ACCOUNT\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:42",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I set page to \"main_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:42",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I validate \"messageInfo\" contains \"You have successfully created an account.\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:44",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 0 minutes 18 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "to-register-a-new-user-and-login-with-those-details;login-with-new-created-user-(must-run-in-conjunciton-with-above-for-new-user-creds)",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login with new created user (must run in conjunciton with above for new user creds)",
+        "tags": [
+          {
+            "name": "@wip",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304000000
+            },
+            "embeddings": [
+              {
+                "data": "Scenario Run time commenced at: 17-10-19 15:36:45",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to \"http://www.kogan.com.au\"",
+            "match": {
+              "location": "src/step_definitions/navigation_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5558000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:45",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I click on \"userMenu\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:50",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I set page to \"popup\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:51",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I fill in \"emailInput\" input with \"ScopeInput\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:53",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I fill in \"passwordInput\" input with \"Password123!!D\"",
+            "match": {
+              "location": "src/step_definitions/input_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:53",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on \"global buttonLabel\" with text \"LOG IN\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:53",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I wait for \"login-register-box\" is not visable",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 589000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:53",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click on \"global userAvatar\"",
+            "match": {
+              "location": "src/step_definitions/click_steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:54",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I set page to \"account_page\"",
+            "match": {
+              "location": "src/step_definitions/page_steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:54",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I validate input \"emailProp\" contains \"Random\"",
+            "match": {
+              "location": "src/step_definitions/validation_steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            },
+            "embeddings": [
+              {
+                "data": "Running time: 17-10-19 15:36:56",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "src/step_definitions/hooks.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            },
+            "embeddings": [
+              {
+                "data": "Time taken: 0 days 0 hours 0 minutes 11 seconds ",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

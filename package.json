@@ -1,22 +1,72 @@
 {
-  "name": "simple-puppeteerproject",
-  "version": "1.0.0",
-  "description": "Simple project to run a basic puppeteer example",
-  "main": "example.js",
+  "name": "automation",
+  "version": "0.1.0",
+  "description": "Test ecommerce website",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sit": "NODE_ENV=sit ./node_modules/cucumber/bin/cucumber-js --tags=@done ./src/features/*.feature -r ./src/step_definitions/ -f json:output/results.json -f progress -f rerun:output/@rerun.txt",
+    "dev": "NODE_ENV=dev ./node_modules/cucumber/bin/cucumber-js --tags=@wip ./src/features/*.feature -r ./src/step_definitions/ -f json:output/results.json -f progress -f rerun:output/@rerun.txt",
+    "api": "JUNIT_REPORT_PATH=test-result/result.xml JUNIT_REPORT_STACK=1 mocha --timeout 25000 --colors --reporter mocha-jenkins-reporter || true",
+    "docker": "NODE_ENV=docker ./node_modules/cucumber/bin/cucumber-js --tags=@done ./src/features/*.feature -r ./src/step_definitions/ -f json:output/results.json -f progress -f rerun:output/@rerun.txt",
+    "report": "NODE_ENV=run node ./src/report/cucumber_html_reporter.js",
+    "copy": "node ./src/file_copy/filecopy.js",
+    "test-sit": "run-s -c sit report copy",
+    "test-dev": "run-s -c dev report copy",
+    "docker-report": "run-s -c docker report copy",
+    "reportRerun": "NODE_ENV=rerun node ./src/report/cucumber_html_reporter.js",
+    "rerun": "func() { NODE_ENV=re-run ./node_modules/cucumber/bin/cucumber-js ./output/\"$1\"/@rerun.txt -r ./src/step_definitions/ -f json:output/rerun-results.json;}; func ",
+    "rerun-report": "run-s -c rerun reportRerun",
+    "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damocamo/simple-puppeteerProject.git"
-  },
-  "author": "DamoCamo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/damocamo/simple-puppeteerProject/issues"
-  },
-  "homepage": "https://github.com/damocamo/simple-puppeteerProject#readme",
+  "keywords": [],
+  "author": "Damien",
+  "license": "UNLICENSED",
   "dependencies": {
-    "puppeteer": "^1.13.0"
+    "child-process-promise": "^2.2.1",
+    "cors": "^2.8.5",
+    "cucumber": "^5.0.2",
+    "cucumber-html-reporter": "^4.0.4",
+    "eslint": "^5.15.3",
+    "fs-extra": "^7.0.1",
+    "helmet": "^3.21.0",
+    "konfig": "^0.2.1",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.1",
+    "puppeteer": "git+https://github.com/GoogleChrome/puppeteer.git"
+  },
+  "devDependencies": {
+    "api-bdd-test": "^0.5.1",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "gherkin-jest": "^0.24.0",
+    "jest": "^24.9.0",
+    "jest-nunit-reporter": "^1.3.1",
+    "lodash": "^4.17.15",
+    "loopback-supertest": "^0.1.12",
+    "mocha": "^6.2.0",
+    "mocha-jenkins-reporter": "^0.4.2",
+    "npm-run-all": "^4.1.3",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testResultsProcessor": "./node_modules/jest-nunit-reporter",
+    "transform": {
+      "^.+\\.feature$": "gherkin-jest"
+    },
+    "setupFiles": [
+      "./features/api_steps"
+    ],
+    "testMatch": [
+      "**/*.test.js",
+      "**/*.feature"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "feature"
+    ]
+  },
+  "jestNunitReporter": {
+    "outputPath": "test-result/",
+    "outputFileName": "gerkin-report.xml"
   }
 }
